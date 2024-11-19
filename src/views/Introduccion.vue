@@ -1,30 +1,33 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno.text-uppercase(:titulo="'unidad 1. Introducción a la Lógica y el Pensamiento Lógico'" :subTitulo="'INTRODUCCIÓN'")
+  BannerInterno.text-uppercase(:titulo="'unidad 2: Razonamiento y demostraciones lógicas'" :subTitulo="'INTRODUCCIÓN'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .row.mb-5.bg-fondo-1.bg-full-width
-      div.px-4.px-md-5.pb-md-3
-        .row.mx-0.mb-5
-          .col-12.col-xl-7.col-xxl-8
-            p.p-4.p-md-0 Las matemáticas, como ciencia formal, han evolucionado considerablemente desde el siglo XVII, suscitando tanto controversias como importantes avances en la lógica y el razonamiento. Gracias a este desarrollo, se han descubierto procesos y leyes fundamentales del mundo real, tales como el movimiento de los planetas, la gravedad y patrones de distribución en series numéricas, entre otros temas de alta relevancia.
-          .d-none.d-xl-block.col-xl-5.col-xxl-4
-            img.h-100(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')  
-        .row.mb-5.justify-content-center.align-items-stretch
+    .bg-fondo-1.bg-full-width
+      div.px-5.pb-md-3.py-4
+
+        .row.mb-4.pb-2
+          .col-12.col-lg-5
+            p.mb-0 Esta unidad temática introduce los conceptos fundamentales del razonamiento lógico y las herramientas formales para demostrar proposiciones matemáticas. A través de tres temas centrales, se exploran los tipos de razonamientos, las técnicas de demostración, y el uso de cuantificadores lógicos para formular y probar enunciados. 
+          .col-7.d-none.d-lg-block
+            img.img-a.img-t(src='@/assets/curso/unidad/img-1.png', alt='')
+
+        .row.mb-5.justify-content-center 
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-2.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Teoría de conjuntos de Georg Cantor
-              p.px-1.text-small.mb-0.d-flex.text-center Georg Cantor propuso la teoría de conjuntos, que permite agrupar elementos en conjuntos específicos. Ejemplos notables de estos conjuntos incluyen los números naturales, puntos en un círculo, números primos y puntos en un plano.
+              p.text-bold.mb-4.text-center Tipos de razonamientos 
+              p.px-1.text-small.mb-0.d-flex.text-center El razonamiento inductivo, deductivo y abductivo son fundamentales en el pensamiento lógico. El razonamiento inductivo generaliza patrones observados, el deductivo deriva conclusiones específicas a partir de premisas generales, y el abductivo busca la explicación más plausible ante ciertas observaciones. Comprender estos tipos es clave para resolver problemas en lógica y matemáticas.
           .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-3.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Importancia de las matemáticas en la vida cotidiana
-              p.px-1.text-small.mb-0.d-flex.text-center Las matemáticas son fundamentales en las  actividades diarias, desde operaciones básicas hasta teorías avanzadas. Esta unidad aborda la lógica matemática, introduciendo pensamiento lógico, inducción y deducción aplicables a una variedad de problemas. 
+              p.text-bold.mb-4.text-center Técnicas de demostración 
+              p.px-1.text-small.mb-0.d-flex.text-center Las técnicas de demostración (directa, indirecta, por contraposición y reducción al absurdo) permiten validar la veracidad de proposiciones. Cada método sigue una estructura lógica rigurosa que fortalece el rigor de las matemáticas.
           .col-10.col-md-8.col-lg-6.col-xl-4
             .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-4.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Lógica matemática
-              p.px-1.text-small.mb-0.d-flex.text-center La lógica matemática se centra en las leyes de inferencia para establecer un razonamiento riguroso. Mediante la formalización del lenguaje y sus reglas, es útil en diversas áreas científicas y en la resolución de problemas complejos.
+              p.text-bold.mb-4.text-center Cuantificadores lógicos 
+              p.px-1.text-small.mb-0.d-flex.text-center Los cuantificadores universales y existenciales ayudan a expresar la generalidad o existencia de una propiedad en un conjunto. Estos símbolos son esenciales en la formulación precisa de enunciados y en la realización de demostraciones matemáticas.
+
 
 
 </template>
