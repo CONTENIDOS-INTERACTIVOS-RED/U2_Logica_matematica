@@ -1,0 +1,85 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+$custom-card-border-radius: 8px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/background-1.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/curso/background-2.svg") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/curso/background-3.png") !important
+    background-position: top
+    
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.3rem
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+
+.color-ppal
+  color: #0B0A0A
+
+//bg colors
+
+.bg-rosa
+  background-color: #F9DAFA
+.bg-amarillo
+  background-color: #FDF3D2
+.bg-amarillo-claro
+  background-color: #FEF8E7
+.bg-azul
+  background-color: #DBEBF6
+.bg-azul-claro
+  background-color: #ECF4FA
+
+
+// ACORDEON
+.acordion__header
+  background-color: #FBEBFC !important
+.acordion__contenido
+  background-color: #FBEBFC !important  
+.acordion__header--active
+  background-color: #431544 !important
+  h4, i
+    color: white !important
