@@ -31,7 +31,26 @@ export default {
         numero: '1',
         titulo: 'Definición de lógica matemática',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Razonamiento abductivo',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Razonamiento inductivo',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Razonamiento deductivo',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
@@ -43,38 +62,26 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Razonamiento deductivo',
+            titulo: 'Demostración directa',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Razonamiento inductivo',
+            titulo: 'Demostración indirecta',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Relación entre ambos tipos de razonamiento',
+            titulo: 'Demostración por contraposición',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Importancia del pensamiento lógico en la vida cotidiana',
+            titulo: 'Reducción al absurdo',
             hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Pensamiento crítico y lógica',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Proposiciones, conectores lógicos y tablas de verdad',
-            hash: 't_2_6',
           },
         ],
       },
@@ -104,7 +111,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Logica_matematica_U1.zip',
+        download: 'downloads/Logica_Matematica_U2.zip',
       },
       {
         icono: 'fas fa-download',
@@ -121,139 +128,70 @@ export default {
   referencias: [
     {
       referencia:
-        'Bates, T. (2015). Teaching in a digital age: Guidelines for designing teaching and learning. BCcampus.',
+        "Campos, D. (2010). The imagination and hypotesis-making in mathematics: A Peirce account. In M. Moore (ed.). New Essays on Peirce's Mathematical Philosophy. Illinois: Open Court.",
       link: '',
     },
     {
       referencia:
-        'Bautista Pérez, G., Forés Miravalles, A., & Borges Sáiz, F. (2016). Didáctica universitaria en entornos virtuales de enseñanza-aprendizaje. Narcea Ediciones.',
-      link: '',
-    },
-    {
-      referencia: 'Bustinduy, I. (2015). La gestión del tiempo. Editorial UOC.',
+        'Enderton, H. B. (2001). A Mathematical Introduction to Logic. Academic Press.',
       link: '',
     },
     {
       referencia:
-        'Cenich, G. (2006). Propuesta de aprendizaje basado en proyecto y trabajo colaborativo: experiencia de un curso en línea. Red Revista Electrónica de Investigación Educativa.',
+        'Hurley, P. J. (2014). A Concise Introduction to Logic (12th ed.). Cengage Learning.',
       link: '',
     },
     {
       referencia:
-        'García, L. (2019). Productividad y gestión del tiempo: Principios y técnicas efectivas.',
-      link: '',
-    },
-    {
-      referencia:
-        'Moore, M. G., & Kearsley, G. (2012). Distance education: A systems view of online learning (3rd ed.). Wadsworth Cengage Learning.',
-      link: '',
-    },
-    {
-      referencia:
-        "O'Driscoll, A., & Kaye, P. (2019). Los sistemas de gestión de aprendizaje: Modernización educativa y acceso eficiente al contenido. Editorial ABC.",
-      link: '',
-    },
-    {
-      referencia:
-        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2017). Manual para entornos de aprendizaje innovadores. Editorial UOC.',
-      link: '',
-    },
-    {
-      referencia:
-        'Pedraza, M. A. (2009). Los entornos virtuales de enseñanza-aprendizaje: propuesta pedagógica. El Cid Editor | Apuntes.',
-      link: '',
-    },
-    {
-      referencia:
-        'Quijada Monroy, V. del C. (2014). Aprendizaje virtual. Editorial Digital UNID.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ramos Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a ed.). Editorial ICB.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ruiz Ospino, E. A., & Sánchez Fontalvo, I. M. (2019). ¿Qué piensan los profesores universitarios de los estilos de aprendizaje?. Editorial Unimagdalena.',
-      link: '',
-    },
-    {
-      referencia:
-        'Salmon, G. (2013). Moderación electrónica: la clave para la enseñanza y el aprendizaje en línea.',
-      link: '',
-    },
-    {
-      referencia:
-        'Sangrà Morer, A., & Girona Campillo, C. (2013). Los materiales de aprendizaje en contextos educativos virtuales: pautas para el diseño tecnopedagógico. Editorial UOC.',
-      link: '',
-    },
-    {
-      referencia:
-        'Torres Quiñones, A. (2015). La construcción de las estrategias de aprendizaje en la formación inicial del profesional de la educación desde los entornos virtuales de aprendizaje. Editorial Universitaria.',
+        'Santaella, L. (2009). La evolución de los tres tipos de razonamiento: Abducción, inducción y deducción.',
       link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Bicondicional',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Operador lógico que indica que dos proposiciones son verdaderas o falsas simultáneamente. Se lee como "si y solo si". Ejemplo: p⇔q',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Conjuntos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Colecciones de elementos, que pueden ser números, objetos u otros conjuntos, y se utilizan frecuentemente en lógica matemática para formalizar proposiciones',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Implicación',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Operador lógico que expresa que si una proposición es verdadera, entonces otra también lo es. Se lee como "si p, entonces q". Ejemplo: p⇒q',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Lógica proposicional',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Rama de la lógica que se ocupa de las proposiciones y de sus relaciones utilizando operadores lógicos como AND, OR y NOT',
     },
     {
-      termino: 'Moda',
+      termino: 'Negación',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Operación lógica que invierte el valor de verdad de una proposición. Si p es una proposición, su negación se denota ¬p, y es verdadera si p es falsa, y viceversa',
     },
     {
-      termino: 'Diseña',
+      termino: 'Predicado',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Función o expresión lógica que contiene variables y puede evaluarse como verdadera o falsa cuando se sustituyen las variables por valores específicos. Ejemplo: P(x) donde x es una variable y P(x) es el predicado',
     },
     {
-      termino: 'DIseño',
+      termino: 'Proposición',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Afirmación o enunciado que puede ser verdadero o falso, pero no ambas cosas a la vez. Ejemplo: "El sol es una estrella" es una proposición verdadera',
     },
     {
-      termino: 'Tipología',
+      termino: 'Silogismo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Forma de razonamiento deductivo que consiste en dos premisas y una conclusión. Ejemplo: "Todos los hombres son mortales. Sócrates es hombre. Luego, Sócrates es mortal"',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Sistema de axiomas',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de proposiciones fundamentales aceptadas como verdaderas sin necesidad de demostración, a partir de las cuales se derivan otros teoremas',
     },
   ],
   complementario: [

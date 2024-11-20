@@ -1,8 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'Unidad 1. Introducción a la Lógica y el Pensamiento Lógico'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'unidad 2: Razonamiento y demostraciones lógicas'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La <strong>unidad 1: Introducción a la lógica y el pensamiento lógico</strong> explora los fundamentos de la lógica matemática, una disciplina esencial para el análisis y la estructuración de ideas a través de proposiciones y argumentos. Esta unidad abarca conceptos como los conectores lógicos y el uso de tablas de verdad, herramientas que permiten combinar y evaluar proposiciones de manera clara y precisa. Además, se examinan dos formas de razonamiento fundamentales, el deductivo e inductivo, aplicables tanto en el ámbito académico como en la vida cotidiana. A través de estos elementos, los estudiantes desarrollarán habilidades de pensamiento crítico y lógico, esenciales para una toma de decisiones fundamentada. 
+    p.mb-4.mb-md-5 Esta unidad aborda los fundamentos del razonamiento lógico y las técnicas de demostración en matemáticas. Comienza con los tipos de razonamientos (inductivo, deductivo y abductivo) que permiten formular y analizar conclusiones. Luego, presenta técnicas de demostración clave: directa, indirecta, por contraposición y reducción al absurdo, que validan proposiciones de forma rigurosa. Finalmente, se explora el uso de cuantificadores lógicos (existenciales y universales) para formular enunciados precisos. Esta unidad ofrece herramientas esenciales para resolver problemas matemáticos y validar teoremas de manera formal.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
