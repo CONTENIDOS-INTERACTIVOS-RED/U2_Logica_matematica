@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Lógica Matemática
+              p.home-main-title.text-uppercase Lógica Matemática
               h1.home-title.mb-4.text-uppercase Razonamiento y demostraciones lógicas
               p.descripcion.mb-4 La unidad 2: Razonamiento y demostraciones lógicas, abarca el estudio de tres temas clave: tipos de razonamiento, técnicas de demostración y cuantificadores lógicos. Se exploran los razonamientos abductivo, inductivo y deductivo,  esenciales en la lógica y matemáticas. Luego, se presentan métodos de demostración, como la demostración directa, indirecta, por contraposición y reducción al absurdo, herramientas clave para validar proposiciones matemáticas. Finalmente, se revisan los cuantificadores existenciales y universales, esenciales para estructurar enunciados lógicos precisos y rigurosos, aportando una base sólida para el análisis lógico-matemático.
 
