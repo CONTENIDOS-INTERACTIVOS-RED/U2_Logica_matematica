@@ -12,7 +12,7 @@
       div.px-5.pb-md-3.py-4
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/UzkOOPcHPog" title="Tipos de razonamiento ok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     h2 Tipos de signos
     p.mb-4 Peirce identificó tres tipos de signos:
@@ -148,13 +148,13 @@
         img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7
         .bg-amarillo-claro.mb-0.p-4(data-aos="fade-up")
-          h3 Ejemplo 1. Patrón numérico
+          h3 Ejemplo 1. Teorema de Pitágoras
           p.mb-4 Un ejemplo clásico de razonamiento deductivo en matemáticas es la demostración del teorema de Pitágoras. Este teorema establece que, en un triángulo rectángulo, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las longitudes de los catetos. La expresión general del teorema es:
           p.mb-0.text-bold a^2 + b^2 = c^2
         .bg-rosa.p-4(data-aos="fade-up")
           p.mb-0 Donde <strong>a</strong> y <strong>b</strong> son los catetos, y <strong>c</strong> es la hipotenusa. Este resultado puede demostrarse deductivamente a partir de axiomas geométricos y de la definición de triángulo rectángulo. No importa cuántos ejemplos de triángulos rectángulos observemos; el razonamiento deductivo garantiza que el teorema es válido para todos los triángulos rectángulos.
 
-    .row.mb-4
+    .row.mb-5
       .col-12.col-lg-10.mx-auto
         .bg-amarillo-claro.mb-0.p-4(data-aos="fade-up")
           h3 Ejemplo 2. Propiedades de los números pares
@@ -181,6 +181,23 @@
           .bg-white.py-2.px-4.px-lg-5.mb-4.d-inline-block(data-aos="fade-down")
             p.text-bold.text-center.mb-0 2n=2m=2(n+m)
           p.mb-0 Dado que n+m  es un número entero, concluimos deductivamente que la suma tiene la forma 2k, donde k=n+m es un entero. Por lo tanto, la suma de dos números pares es par. Este resultado es aplicable en todos los casos posibles, ya que ha sido demostrado a partir de propiedades generales de los números enteros, sin depender de ejemplos específicos.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/72215") Herrera, J. (2015). Lógica de enunciados. Ecoe ediciones.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/24HpOdDlUxM") Arilin's Math World. Cuantificadores [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+
 
 </template>
 

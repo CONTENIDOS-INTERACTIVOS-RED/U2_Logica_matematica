@@ -118,7 +118,6 @@
             .bg-white.mb-4.py-2.px-4.px-lg-5.mb-0.d-inline-block(data-aos="fade-up")
               p.text-bold.text-center.mb-0 n^2  =  (2k)^2  = 4k^2
             p.mb-4 Esto se puede reescribir como n^2  = 2(2k^2), lo que muestra que n^2 es divisible por 2, y por lo tanto es un número par.
-              p.text-bold.text-center.mb-0 √(2 )  =  p^2/q^2 
           .d-none.d-lg-block.col-12.col-lg-4.col-xl-5(data-aos="fade-left")
             img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
 
@@ -146,10 +145,6 @@
             p.text-bold.mb-1 Demostración.
             p.mb-4 El matemático comienza suponiendo lo contrario de lo que se quiere demostrar, es decir, que existe un número mayor, llamémoslo N, que es el número más grande posible. Bajo esta suposición, ningún número puede ser mayor que N.
             p.mb-4 A continuación, el matemático considera el número N+1. Claramente, N+1 es mayor que N, lo que contradice la suposición inicial de que N era el número más grande. Esta contradicción con una verdad fundamental (que siempre se puede sumar 1 a un número para obtener un número mayor) revela que la suposición original es falsa.
-            .bg-white.mb-4.py-2.px-4.px-lg-5.mb-0.d-inline-block(data-aos="fade-up")
-              p.text-bold.text-center.mb-0 n^2  =  (2k)^2  = 4k^2
-            p.mb-4 Esto se puede reescribir como n^2  = 2(2k^2), lo que muestra que n^2 es divisible por 2, y por lo tanto es un número par.
-              p.text-bold.text-center.mb-0 √(2 )  =  p^2/q^2 
           .d-none.d-lg-block.col-12.col-lg-4.col-xl-5(data-aos="fade-left")
             img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
       .d-flex.align-items-center.px-0
@@ -159,7 +154,7 @@
             p.mb-1.text-bold Conclusión
             p.pe-xl-5.mb-0 No existe un número mayor, ya que cualquier número puede ser superado sumándole 1.
 
-    .row.bg-rosa.bg-full-width.py-4
+    .row.bg-rosa.bg-full-width.py-4.mb-5
       .px-5.pb-md-3.py-4.d-flex
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
           img.h-100(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
@@ -170,7 +165,20 @@
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Cuantificadores lógicos: existenciales y universales.
              
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/38841") Manzur, A. (2009). Experimentos de demostración. Plaza y Valdes.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/HKtyywesINM") Cal Math. Demostraciones Directas y Ejemplos - Cómo Demostrar Matemáticas 3 [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 </template>
 
 <script>

@@ -85,14 +85,20 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividadDidactica',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -108,20 +114,15 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Logica_Matematica_U2.zip',
-      },
+      // {
+      //   icono: 'fas fa-file-download',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/Logica_Matematica_U2.zip',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
